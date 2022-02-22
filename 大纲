@@ -1,60 +1,15 @@
-语言特性（swift和OC）
-  swift的Block类型
-  Swift 派发机制
-  Block语法实现
-  OC的消息派发
-  OC消息转发
-   常用属性
-   分类和扩展
-   OC运行时及其应用 
-   load和initial：
-           加载时机：load类被项目引用到时就会被调用。initial: 类或者子类的第一个方法被调用前调用。
-   元类
-   KVO实现原理
-  NSNotificaiton
-内存管理和内存安全、内存优化
-     循环引用
-      自动释放池
-     锁和信号量
-同步和异步知识
-     GCD
-     队列
-     线程    Runloop
 
 
-UIKit框架
-   事件响应链和探测链
-   异步渲染
-    离屏渲染， 哪些操作
-    图片展示经历的步骤
-    layoutSubView触发时机
-CoreAnimation
-
-工具:
-Instrument:
-视图层次:
 
 
-拓展
-MVVM和MVC框架
-面向对象和面向协议
-
-项目的总结
 
 
-性能优化
-启动时间优化
-如何检测卡顿
-静态库和动态库的区别
-常用的设计模式 如何理解设计模式
-LRU算法（Least RecentLy used 最近最少使用）
-数据库知识
-编译流程 —> 编译速度
-CocoaPod
 
-网络知识
-常见的第三方SDK
-基础的算法
+
+
+
+
+
 
 
 
