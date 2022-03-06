@@ -13,13 +13,19 @@
    目的：绘制消耗大的场景，放到后台线程，提高用户体验.
 4. 离屏渲染， 哪些操作会引起离屏渲染？
    概念：GPU无法将渲染结果放到帧缓存中，只能另外开辟一块内存区域存储。
-   触发离屏渲染的操作：cornerRadius + clipsToBound、 阴影没有指定阴影形状
-shouldRasterize: 光栅化
-opacity和alpha区别：
+   触发离屏渲染的操作：cornerRadius + clipsToBound、 阴影没有指定阴影形状、layer的mask、group的alpha
+5. layoutSubView触发时机
+   addSubView、 removeSubView、frame的改变、屏幕旋转、uiscrollView的滚动(滚动是引起bounds.origin变化，为什么造成layoutSubView)？、setNeedLayout
+6. bounds和frame的区别:
+   bounds是相对于自身坐标系； frame是相对父view的坐标系
+5. shouldRasterize: 光栅化:
+   layer转换成位图
+7. opacity和alpha区别：
    alpha是UIView的属性， Opacity是CALayer的属性。2者都会影响子视图的透明度。设置完全透明时,opacity不会影响事件传递。
-图片展示经历的步骤
+8. 图片展示的过程？
+   加载图片文件 -> 图片解压 -> 显示   
 UIResponder的理解
-layoutSubView触发时机
+
 CoreAnimation
 
 
